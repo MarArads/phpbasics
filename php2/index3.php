@@ -1,13 +1,25 @@
 <?php require './layout/head.php'; ?>
 
-<h1>PHP Output No. 2 (Page 3)</h1>
-<p>This output uses require statement in PHP</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, maiores eos. Commodi quos hic in cupiditate ullam officia exercitationem dignissimos rerum quaerat ipsa fuga repudiandae, dolorum nobis est dicta placeat.
-Tempora optio esse et ad corrupti quod libero dicta fuga rem veritatis? Vel asperiores possimus quam placeat minima minus pariatur blanditiis. Praesentium modi odit iste commodi, quo possimus optio cumque?
-Quia ea beatae expedita totam aperiam eligendi. Asperiores aperiam animi nesciunt rem neque eveniet. Adipisci incidunt hic facilis enim ea reiciendis porro, doloribus sapiente aliquid modi, tempore rem expedita unde?</p>
+<h1>LOG IN HERE</h1>
+<form action="function2.php" method="POST">
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" name="uname" placeholder="Enter Username" required /></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" placeholder="Enter Password" required /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Log In" /></td>
+        </tr>
+    </table>
+</form>
 
 
-<a href="./index2.php">Log In</a>
+<a href="./index2.php">Register</a>
 <br>
 <a href="./index4.php">Forgot Password</a>
 

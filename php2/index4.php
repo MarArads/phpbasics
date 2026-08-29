@@ -1,11 +1,22 @@
 <?php require './layout/head.php'; ?>
 
 <h1>Forgot Password</h1>
-<p>This output uses require statement in PHP</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, maiores eos. Commodi quos hic in cupiditate ullam officia exercitationem dignissimos rerum quaerat ipsa fuga repudiandae, dolorum nobis est dicta placeat.
-Tempora optio esse et ad corrupti quod libero dicta fuga rem veritatis? Vel asperiores possimus quam placeat minima minus pariatur blanditiis. Praesentium modi odit iste commodi, quo possimus optio cumque?
-Quia ea beatae expedita totam aperiam eligendi. Asperiores aperiam animi nesciunt rem neque eveniet. Adipisci incidunt hic facilis enim ea reiciendis porro, doloribus sapiente aliquid modi, tempore rem expedita unde?</p>
-
+<form action="function3.php" method="POST">
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" name="uname" placeholder="Enter Username" required /></td>
+        </tr>
+        <tr>
+            <td>New Password:</td>
+            <td><input type="password" name="new_password" placeholder="Enter New Password" required /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Change Password" /></td>
+        </tr>
+    </table>
+    </form>
 
 
 <a href="./">Home</a>
